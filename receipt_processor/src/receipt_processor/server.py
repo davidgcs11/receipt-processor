@@ -5,11 +5,16 @@ import sys
 
 from arcade_mcp_server import MCPApp
 
-from receipt_processor.tools import decode_receipt, identify_product
+from receipt_processor.tools import (
+    decode_receipt,
+    generate_category_report,
+    identify_product,
+)
 
-app = MCPApp(name="david_receipt_mcp_server", version="1.0.0", log_level="DEBUG")
+app = MCPApp(name="receipt_processor_mcp", version="1.0.0", log_level="DEBUG")
 
 app.add_tool(decode_receipt)
+app.add_tool(generate_category_report)
 app.add_tool(identify_product)
 
 if __name__ == "__main__":

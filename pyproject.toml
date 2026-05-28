@@ -1,2 +1,0 @@
-[tool.uv.workspace]
-members = ["receipt_processor", "agent"]
