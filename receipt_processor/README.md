@@ -15,17 +15,20 @@ MCP server for processing Peruvian Tottus supermarket receipts. Extracts line it
 **Prerequisites:** Python 3.10+, [uv](https://docs.astral.sh/uv/), an Arcade account.
 
 ```bash
-# 1. Clone and install
+# 1. Log in to Arcade
+arcade login
+
+# 2. Clone and install
 git clone <repo>
 cd receipt_processor
 uv sync
 
-# 2. Set up environment variables
+# 3. Set up environment variables
 cp .env.example .env
 # Fill in OPENAI_API_KEY and ARCADE_API_KEY in .env
 
-# 3. Start the MCP server
-uv run arcade dev
+# 4. Start the MCP server
+uv run src/receipt_processor/server.py
 ```
 
 The server will be available locally and registered with your Arcade worker for testing.
@@ -34,7 +37,7 @@ The server will be available locally and registered with your Arcade worker for 
 
 ```bash
 # Publish the toolkit to your Arcade Cloud account
-uv run arcade publish
+arcade deploy -e src/receipt_processor/server.py
 ```
 
 After publishing, the tools are available to any agent connected to your Arcade Cloud account. Set the `OPENAI_API_KEY` secret in your Arcade Cloud dashboard under **Secrets**.
