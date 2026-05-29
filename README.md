@@ -2,6 +2,14 @@
 
 This repo contains two projects that work together to process Peruvian Tottus supermarket receipts using [Arcade](https://arcade.dev) tools.
 
+## Explanation
+
+### Issue + Planning
+https://www.loom.com/share/4e3e031a9bac4c40856048c45288adbf
+
+### Demo
+https://www.loom.com/share/6d52b80ef31b438094391bafecf2d838
+
 ## Projects
 
 ### [receipt_processor](./receipt_processor/README.md)
