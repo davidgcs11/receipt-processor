@@ -9,28 +9,7 @@ An AI agent that processes Peruvian Tottus supermarket receipts. It decodes rece
 - An OpenAI API key
 
 ## Google Sheets setup
-1. Create a new spreadsheet in Google Drive, where the data will be read from and write to. It should have 3 sheets:
-  - Products
-  - Receipts
-  - Categories
-
-2. Inside of categories sheet paste the following content
-```
-category	spanish_category
-Meat & Poultry	Carnes y Aves
-Processed Meats	Embutidos y Procesados
-Fruits & Vegetables	Frutas y Verduras
-Frozen Foods	Congelados
-Pantry & Dry Goods	Abarrotes
-Canned Goods	Conservas
-Dairy & Refrigerated	Lácteos y Refrigerados
-Beverages	Bebidas
-Breakfast & Cereals	Desayuno y Cereales
-Pets	Mascotas
-Non-Food	No Alimentario
-Other	Otro
-```
-
+1. Clone this spreadsheet into your account https://docs.google.com/spreadsheets/d/1zhHlOlUWC_48jROBOpTwOmh6_mU1aGfgEh0CX0Ynvaw/edit?usp=sharing
 
 ## Setup
 
