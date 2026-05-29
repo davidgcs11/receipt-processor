@@ -12,6 +12,8 @@ An MCP server (Arcade toolkit) that exposes three tools: decoding receipt images
 
 An AI agent that orchestrates the receipt_processor tools end-to-end: it takes a receipt image URL, decodes and enriches each line item, writes the data to a Google Spreadsheet, and produces a category spending report with a pie chart.
 
+
+## Extra
 ### [files](./files/)
 
 Sample data for testing: five Tottus receipt images (`receipt_1.jpeg` – `receipt_5.jpeg`) and `Expenses.xlsx`, an example of the Google Spreadsheet output with the Products, Receipts, and Categories tabs populated.

@@ -75,9 +75,21 @@ Once running, the agent will:
 ## Image helpful links
 
 ```
-https://imgur.com/TpqXOAE
-https://imgur.com/eslBdoL
-https://imgur.com/rM5MBVN
-https://imgur.com/pghKJDt
-https://imgur.com/arAK4JK
+https://firebasestorage.googleapis.com/v0/b/david-cabrera-site.firebasestorage.app/o/receipt_1.jpeg?alt=media&token=adf08fd9-6341-47a9-9c4c-cdc6ac2adcd0
+```
+
+```
+https://firebasestorage.googleapis.com/v0/b/david-cabrera-site.firebasestorage.app/o/receipt_2.jpeg?alt=media&token=adf08fd9-6341-47a9-9c4c-cdc6ac2adcd0
+```
+
+```
+https://firebasestorage.googleapis.com/v0/b/david-cabrera-site.firebasestorage.app/o/receipt_3.jpeg?alt=media&token=adf08fd9-6341-47a9-9c4c-cdc6ac2adcd0
+```
+
+```
+https://firebasestorage.googleapis.com/v0/b/david-cabrera-site.firebasestorage.app/o/receipt_4.jpeg?alt=media&token=adf08fd9-6341-47a9-9c4c-cdc6ac2adcd0
+```
+
+```
+https://firebasestorage.googleapis.com/v0/b/david-cabrera-site.firebasestorage.app/o/receipt_5.jpeg?alt=media&token=adf08fd9-6341-47a9-9c4c-cdc6ac2adcd0
 ```
